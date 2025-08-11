@@ -1,0 +1,9 @@
+python-docx
+openai
+langchain
+faiss-cpu
+tqdm
+python-telegram-bot==20.3
+tiktoken
+matplotlib
+pandas
