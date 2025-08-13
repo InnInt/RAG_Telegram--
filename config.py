@@ -10,14 +10,14 @@ FAISS_INDEX_PATH = os.path.join("embeddings", "faiss_index")  # можно ос�
 DB_PATH = os.path.join("data", "logs.db")  # было: "agrobot", "data", "logs.db"
 
 # === Параметры OpenAI ===
-OPENAI_API_KEY = "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"  # вставь свой ключ
+OPENAI_API_KEY = "sk-proj-IDQPTpu9KL_p4j_iltOgaP-8ITyZVKbnLfaaHyJt11O-fKCKuTvVwRVBmD6U6hadCf1JDl89myT3BlbkFJfltNhQ-NJRdNCX6LdTPtysjAncnJKeOI_752Gh3sNX2gpuuM-ksFd2eSkSePqEvPxp4W9vc6oAAA"  # вставь свой ключ
 EMBEDDING_MODEL = "text-embedding-3-small"  # или text-embedding-3-large
 GPT_MODEL = "gpt-4o-mini"  # <-- сначала объявляем
 
 CHAT_MODEL = GPT_MODEL     # <-- теперь можно использовать
 
 # === Telegram ===
-TELEGRAM_BOT_TOKEN = "7563364734:AAHUTF7dfPmfLY_xR7qVVGfKS0GdXLo1n-M"
+TELEGRAM_BOT_TOKEN = "7563364734:AAHUTF7dfPmfLY_xR7qVVGfKS0GdXLo1n-MAA"
 BOT_TOKEN = TELEGRAM_BOT_TOKEN
 
 # === Чанкование текста ===
